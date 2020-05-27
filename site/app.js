@@ -52,14 +52,14 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph DAlmeida",
-        "age": 38,
+        "name": "Clem Claddidlehopper",
+        "age": 58,
         "gender": "male",
         "street": "34 Main Street",
-        "city": "Toronto",
+        "city": "Anytown",
         "zipcode": "M5H 1T1"
       },
-      "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
+      "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D", "Potassium"],
       "appointments": ["2018-01-15 1:00 - Dentist", "2018-02-14 4:00 - Internal Medicine", "2018-09-30 8:00 - Pediatry"]
     }
 
